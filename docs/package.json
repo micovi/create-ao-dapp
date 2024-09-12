@@ -1,0 +1,18 @@
+{
+  "name": "docs",
+  "version": "0.1.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vocs dev",
+    "build": "vocs build",
+    "start": "vocs preview"
+  },
+  "dependencies": {
+    "@types/react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vocs": "latest"
+  }
+}

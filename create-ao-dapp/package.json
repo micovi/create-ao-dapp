@@ -1,0 +1,44 @@
+{
+  "name": "create-ao-dapp",
+  "description": "The ao-starter-kit provides a comprehensive boilerplate for setting up an AO process, including testing, modules, and amalgamation alongside a React application.",
+  "type": "module",
+  "version": "0.1.1",
+  "bin": {
+    "ao-dapp": "_lib/bin.js"
+  },
+  "main": "./_lib/index.js",
+  "exports": {
+    ".": "./_lib/index.js"
+  },
+  "dependencies": {
+    "@clack/core": "^0.3.4",
+    "@clack/prompts": "^0.7.0",
+    "cac": "^6.7.14",
+    "detect-package-manager": "^3.0.2",
+    "fs-extra": "^11.2.0",
+    "picocolors": "^1.0.0",
+    "yaml": "^2.5.0",
+    "zx": "^8.1.4"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Autonomous-Finance/ao-starter-kit.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ao",
+    "dapp",
+    "cli"
+  ],
+  "author": "Autonomous Research",
+  "homepage": "https://github.com/Autonomous-Finance/ao-starter-kit",
+  "bugs": {
+    "url": "https://github.com/Autonomous-Finance/ao-starter-kit/issues"
+  }
+}
