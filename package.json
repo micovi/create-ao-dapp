@@ -10,7 +10,9 @@
     "docs:preview": "cd docs && bun run preview",
     "format": "biome format . --write",
     "lint": "biome lint . --apply-unsafe",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "changeset": "changeset",
+    "release": "changeset publish"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
@@ -20,10 +22,7 @@
   "peerDependencies": {
     "typescript": "^5.5.0"
   },
-  "workspaces": [
-    "docs",
-    "create-ao-dapp"
-  ],
+  "workspaces": ["docs", "create-ao-dapp"],
   "dependencies": {
     "@changesets/cli": "^2.27.7"
   }
