@@ -1,5 +1,11 @@
 # create-ao-dapp
 
+## 0.1.5
+
+### Patch Changes
+
+- 398430a: test
+
 ## 0.1.4
 
 ### Patch Changes
