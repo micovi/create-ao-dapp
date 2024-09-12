@@ -1,5 +1,15 @@
 # create-ao-dapp
 
+## 0.1.2
+
+### Patch Changes
+
+- 82670f3: ttest
+- 85df05b: another one
+- caecf5a: test
+- 5e64600: test
+- 9cebec2: test changeset
+
 ## 0.1.1
 
 ### Patch Changes
